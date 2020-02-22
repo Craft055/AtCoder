@@ -10,3 +10,5 @@ s = input()
 # 出力
 print("{} {}".format(a+b+c, s))
 
+
+
