@@ -23,6 +23,12 @@ source_code_string = """\
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import sys
+
+
+def input():
+    return sys.stdin.readline()
+
 
 def resolve():
     pass
