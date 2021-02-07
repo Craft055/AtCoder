@@ -3,18 +3,21 @@
 
 import sys
 
+
 def input():
     return sys.stdin.readline()
 
 
 def resolve():
-    a = int(input().rstrip())
-    b = int(input().rstrip())
-    h = int(input().rstrip())
+    l, r, d = map(int, input().split())
 
-    s = (a+b)*h / 2
+    cnt = 0
 
-    print(int(s))
+    for i in range(l, r+1):
+        if i % d == 0:
+            cnt += 1
+
+    print(cnt)
 
 
 if __name__ == "__main__":

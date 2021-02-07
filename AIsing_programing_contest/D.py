@@ -3,18 +3,13 @@
 
 import sys
 
+
 def input():
     return sys.stdin.readline()
 
 
 def resolve():
-    a = int(input().rstrip())
-    b = int(input().rstrip())
-    h = int(input().rstrip())
-
-    s = (a+b)*h / 2
-
-    print(int(s))
+    pass
 
 
 if __name__ == "__main__":
